@@ -1,5 +1,4 @@
 import React from 'react';
-import { Play } from 'lucide-react';
 
 const Hero = () => {
     return (
@@ -13,10 +12,7 @@ const Hero = () => {
             />
 
             <div className="max-w-[1280px] mx-auto px-8 flex flex-col items-center text-center relative z-10">
-                <div className="bg-primary-deep/10 text-primary-deep text-[0.75rem] font-bold px-4 py-1.5 rounded-full tracking-wider mb-6">
-                    ACADEMIC PROJECT — FULL-STACK ENGINEERING
-                </div>
-
+    
                 <h1 className="text-6xl md:text-[5.5rem] font-extrabold leading-[1.1] text-primary-deep mb-6 tracking-tight">
                     Centralized Project Tracking <br />
                     <span className="text-primary-deep">Platform</span>
@@ -27,14 +23,12 @@ const Hero = () => {
                 </p>
 
                 <div className="flex gap-5 mb-20 flex-wrap justify-center">
-                    <button className="bg-primary-deep text-white px-9 py-4 rounded-lg font-bold text-lg shadow-[0_10px_25px_-5px_rgba(0,0,128,0.3)]">
+                    <a href="/register" className="bg-primary-deep text-white px-9 py-4 rounded-lg font-bold text-lg shadow-[0_10px_25px_-5px_rgba(0,0,128,0.3)] hover:-translate-y-0.5 transition-all inline-block">
                         Get Started
-                    </button>
-
-                    <button className="bg-white text-primary-deep border-2 border-primary-deep px-9 py-4 rounded-lg font-bold text-lg flex items-center gap-3">
-                        <Play className="w-5 h-5 fill-primary-deep" />
-                        Watch Demo
-                    </button>
+                    </a>
+                    <a href="/login" className="bg-white text-primary-deep border-2 border-primary-deep px-9 py-4 rounded-lg font-bold text-lg hover:-translate-y-0.5 transition-all inline-block">
+                        Log In
+                    </a>
                 </div>
 
                 {/* Kanban Board Mockup */}
