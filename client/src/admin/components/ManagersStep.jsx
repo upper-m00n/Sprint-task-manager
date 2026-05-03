@@ -53,7 +53,7 @@ const ManagersStep = ({ data, updateData }) => {
         <div className="flex flex-col gap-8 animate-in fade-in slide-in-from-right-4 duration-300">
             <div className="flex flex-col gap-2">
                 <h2 className="text-xl font-bold text-primary text-center">Manage Leadership</h2>
-                <p className="text-sm text-slate-500 text-center">Assign at least one Project Manager or Product Manager to lead this space.</p>
+                <p className="text-sm text-slate-500 text-center">Assign at least one Manager to lead this space.</p>
             </div>
 
             <div className="flex flex-col gap-6">
@@ -110,18 +110,11 @@ const ManagersStep = ({ data, updateData }) => {
 
                             <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-all">
                                 <button
-                                    onClick={() => toggleMember(user, 'project_manager')}
-                                    className={`px-3 py-1.5 rounded-lg text-[10px] font-black uppercase tracking-wider transition-all flex items-center gap-1.5 ${isMember(user.id, 'project_manager') ? 'bg-primary text-white' : 'bg-panel text-slate-500 border border-border hover:bg-primary/5 hover:text-primary'}`}
+                                    onClick={() => toggleMember(user, 'manager')}
+                                    className={`px-3 py-1.5 rounded-lg text-[10px] font-black uppercase tracking-wider transition-all flex items-center gap-1.5 ${isMember(user.id, 'manager') ? 'bg-primary text-white' : 'bg-panel text-slate-500 border border-border hover:bg-primary/5 hover:text-primary'}`}
                                 >
-                                    {isMember(user.id, 'project_manager') && <Check className="h-3 w-3" />}
-                                    PM
-                                </button>
-                                <button
-                                    onClick={() => toggleMember(user, 'product_manager')}
-                                    className={`px-3 py-1.5 rounded-lg text-[10px] font-black uppercase tracking-wider transition-all flex items-center gap-1.5 ${isMember(user.id, 'product_manager') ? 'bg-primary text-white' : 'bg-panel text-slate-500 border border-border hover:bg-primary/5 hover:text-primary'}`}
-                                >
-                                    {isMember(user.id, 'product_manager') && <Check className="h-3 w-3" />}
-                                    PdM
+                                    {isMember(user.id, 'manager') && <Check className="h-3 w-3" />}
+                                    Manager
                                 </button>
                             </div>
                         </div>

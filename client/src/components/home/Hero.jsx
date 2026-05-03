@@ -28,7 +28,7 @@ const Hero = () => {
 
                 <div className="flex gap-5 mb-20 flex-wrap justify-center">
                     <button className="bg-primary-deep text-white px-9 py-4 rounded-lg font-bold text-lg shadow-[0_10px_25px_-5px_rgba(0,0,128,0.3)]">
-                        Get Started Free
+                        Get Started
                     </button>
 
                     <button className="bg-white text-primary-deep border-2 border-primary-deep px-9 py-4 rounded-lg font-bold text-lg flex items-center gap-3">
@@ -43,7 +43,7 @@ const Hero = () => {
                         <div className="flex gap-3 mb-8">
                             <div className="w-8 h-8 bg-primary-deep rounded flex items-center justify-center text-white font-extrabold text-sm">T</div>
                             <div className="flex flex-col">
-                                <div className="text-[0.75rem] font-bold text-primary-deep leading-tight">TaskBoard Platform</div>
+                                <div className="text-[0.75rem] font-bold text-primary-deep leading-tight">Sprint Platform</div>
                                 <div className="text-[0.6rem] text-slate-400">Software Project</div>
                             </div>
                         </div>

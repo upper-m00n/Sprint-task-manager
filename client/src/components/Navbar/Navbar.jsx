@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="bg-primary p-1.5 rounded-lg shadow-sm group-hover:bg-primary/90 transition-colors">
           <Hexagon className="h-5 w-5 text-white fill-white/20" />
         </div>
-        <span className="font-bold text-xl tracking-tight text-primary">TaskBoard</span>
+        <span className="font-bold text-xl tracking-tight text-primary">Sprint</span>
       </div>
 
       {/* Center: Search Bar */}

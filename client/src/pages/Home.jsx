@@ -8,7 +8,7 @@ import Story from '../components/home/Story';
 import Footer from '../components/home/Footer';
 
 /**
- * Home page for TaskBoard
+ * Home page for Sprint
  * Implements a premium, modular landing page design.
  */
 const Home = () => {

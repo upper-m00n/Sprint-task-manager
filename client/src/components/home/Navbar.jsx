@@ -13,7 +13,7 @@ const Navbar = () => {
                     <div className="bg-primary-deep p-1.5 rounded-lg shadow-sm group-hover:bg-blue-700 transition-colors">
                         <Hexagon className="h-5 w-5 text-white fill-white/20" />
                     </div>
-                    <span className="font-extrabold text-2xl tracking-tight text-primary-deep uppercase">TaskBoard</span>
+                    <span className="font-extrabold text-2xl tracking-tight text-primary-deep uppercase">Sprint</span>
                     <span className="bg-blue-50 text-primary-deep text-[0.65rem] font-bold px-2 py-0.5 rounded mt-0.5 tracking-wider">ACADEMIC</span>
                 </div>
 

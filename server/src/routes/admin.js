@@ -121,7 +121,7 @@ router.post('/projects', authenticate, requireAdmin, async (req, res) => {
     const hasManager = body.members?.some((m) => m.role === 'manager');
     if (!hasManager) {
       return res.status(400).json({
-        detail: 'At least one Project Manager must be assigned',
+        detail: 'At least one Manager must be assigned',
       });
     }
 

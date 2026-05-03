@@ -12,7 +12,8 @@ export const config = {
   secretKey: process.env.SECRET_KEY,
   algorithm: process.env.JWT_ALGORITHM || 'HS256',
   accessTokenExpireMinutes: parseInt(process.env.ACCESS_TOKEN_EXPIRE_MINUTES || '10080', 10),
-  projectName: process.env.PROJECT_NAME || 'TaskBoard',
+  projectName: process.env.PROJECT_NAME || 'Sprint',
+  clientUrl: process.env.CLIENT_URL || 'http://localhost:5173',
   apiV1: '/api/v1',
 };
 

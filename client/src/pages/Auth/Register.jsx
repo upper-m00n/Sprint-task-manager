@@ -36,7 +36,7 @@ const Register = () => {
     return (
         <AuthLayout
             title="Create an account"
-            subtitle="Start managing your projects with TaskBoard"
+            subtitle="Start managing your projects with Sprint"
         >
             <form onSubmit={handleSubmit} className="space-y-5">
                 {error && (

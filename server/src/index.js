@@ -33,7 +33,7 @@ async function ensureRoles() {
 }
 
 const app = express();
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors({ origin: config.clientUrl, credentials: true }));
 app.use(express.json());
 
 const v1 = config.apiV1;

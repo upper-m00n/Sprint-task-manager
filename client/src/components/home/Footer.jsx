@@ -14,12 +14,11 @@ const Footer = () => {
                         <div className="bg-primary-deep p-1.5 rounded-lg shadow-sm group-hover:bg-blue-700 transition-colors">
                             <Hexagon className="h-5 w-5 text-white fill-white/20" />
                         </div>
-                        <span className="font-extrabold text-2xl tracking-tight text-primary-deep uppercase">TaskBoard</span>
+                        <span className="font-extrabold text-2xl tracking-tight text-primary-deep uppercase">Sprint</span>
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-8">
                         <a href="#" className="text-[0.7rem] font-bold text-slate-500 tracking-widest hover:text-primary-deep uppercase">Product</a>
-                        <a href="#" className="text-[0.7rem] font-bold text-slate-500 tracking-widest hover:text-primary-deep uppercase">Pricing</a>
                         <a href="#" className="text-[0.7rem] font-bold text-slate-500 tracking-widest hover:text-primary-deep uppercase">Security</a>
                         <a href="#" className="text-[0.7rem] font-bold text-slate-500 tracking-widest hover:text-primary-deep uppercase">About</a>
                         <a href="#" className="text-[0.7rem] font-bold text-slate-500 tracking-widest hover:text-primary-deep uppercase">Legal</a>
@@ -32,7 +31,7 @@ const Footer = () => {
                 </div>
 
                 <div className="pt-6 border-t border-primary-deep/[0.03] text-center lg:text-right">
-                    <p className="text-[0.7rem] font-bold text-slate-400 tracking-wider">© 2026 TaskBoard</p>
+                    <p className="text-[0.7rem] font-bold text-slate-400 tracking-wider">© 2026 Sprint</p>
                 </div>
             </div>
         </footer>

@@ -12,7 +12,7 @@ const Story = () => {
                         Collaborative Teams
                     </h2>
                     <p className="text-[1.05rem] text-slate-500 leading-relaxed mb-6 font-normal">
-                        TaskBoard was built as an academic project to explore modern full-stack engineering: a real-world project management system with role-based access, Kanban workflows, and live issue tracking.
+                        Sprint was built as an academic project to explore modern full-stack engineering: a real-world project management system with role-based access, Kanban workflows, and live issue tracking.
                     </p>
                     <p className="text-[1.05rem] text-slate-500 leading-relaxed mb-10 font-normal">
                         The goal was to design and implement a production-quality ticketing platform using Express, MongoDB, and React — covering the full lifecycle from architecture and data modelling to deployment.

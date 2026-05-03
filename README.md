@@ -28,7 +28,7 @@ cd server
 npm run seed
 ```
 
-Creates `admin@taskboard.com` / `admin123` (system admin) and `user@taskboard.com` / `user123`.
+Creates `admin@sprint.com` / `admin123` (system admin) and `user@sprint.com` / `user123`.
 
 ## Frontend
 

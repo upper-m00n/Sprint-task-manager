@@ -30,7 +30,7 @@ const Login = () => {
     return (
         <AuthLayout
             title="Welcome back"
-            subtitle="Enter your credentials to access your TaskBoard"
+            subtitle="Enter your credentials to access your Sprint"
         >
             <form onSubmit={handleSubmit} className="space-y-6">
                 {error && (
@@ -107,7 +107,7 @@ const Login = () => {
                             to="/register"
                             className="font-bold text-primary-deep hover:text-primary-deep/80"
                         >
-                            Sign up for free
+                            Sign up
                         </NavLink>
                     </p>
                 </div>
