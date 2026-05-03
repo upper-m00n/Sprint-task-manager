@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #ffffff;
+  --text: #0f172a;
+  --primary: #3b82f6;
+  --panel: #ffffff;
+  --border: #f1f5f9;
+}
+
+.dark {
+  --bg: #0f172a;
+  --text: #f8fafc;
+  --primary: #60a5fa;
+  --panel: #1e293b;
+  --border: #334155;
+}
+
+[data-theme="purple"] {
+  --primary: #8b5cf6;
+}
+
+[data-theme="green"] {
+  --primary: #22c55e;
+}
+
+@theme {
+  --color-background: var(--bg);
+  --color-text: var(--text);
+  --color-primary: var(--primary);
+  --color-panel: var(--panel);
+  --color-border: var(--border);
+
+  /* Colors - Brand Palette */
+  --color-primary-deep: #000080;
+  /* Deep Navy/Indigo */
+  --color-accent-saffron: #FF9933;
+  /* Saffron Orange */
+  --color-accent-green: #128807;
+  /* Ashoka Green */
+  --color-accent-blue: #0000FF;
+  /* Chakra Blue */
+
+  /* Backgrounds */
+  --color-bg-surface: var(--panel);
+  --color-bg-soft: var(--border);
+
+  /* Font Family */
+  --font-outfit: "Outfit", ui-sans-serif, system-ui, sans-serif;
+
+  /* Custom Shadow */
+  --shadow-premium: 0 10px 40px -10px rgba(0, 0, 128, 0.1);
+
+  /* Custom Radius - Standardized */
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}
+
+@layer base {
+  body {
+    @apply font-outfit text-text bg-background antialiased transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-panel/80 backdrop-blur-xl border border-border;
+  }
+
+  .premium-gradient-text {
+    @apply bg-linear-to-br from-primary-deep to-primary bg-clip-text text-transparent;
+  }
+}
+
+/* Force text to be light in dark mode for hardcoded gray/slate text classes */
+.dark .text-gray-900,
+.dark .text-gray-800,
+.dark .text-gray-700,
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-slate-700 {
+  color: var(--text) !important;
+}
+
+.dark .text-gray-600,
+.dark .text-gray-500,
+.dark .text-gray-400,
+.dark .text-slate-600,
+.dark .text-slate-500,
+.dark .text-slate-400 {
+  color: #cbd5e1 !important; /* light muted gray */
+}
