@@ -29,8 +29,8 @@ const Profile = () => {
                     <p className="text-sm font-bold text-gray-900 leading-tight">
                         {user?.name || "User"}
                     </p>
-                    <p className="text-[11px] font-bold text-accent-saffron uppercase tracking-tighter">
-                        Standard Plan
+                    <p className="text-[11px] text-gray-400 tracking-tight truncate max-w-[140px]">
+                        {user?.email || ""}
                     </p>
                 </div>
                 <div className="h-9 w-9 bg-primary-deep rounded-xl flex items-center justify-center text-white font-bold text-sm shadow-md shadow-primary-deep/10">

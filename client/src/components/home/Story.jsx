@@ -6,16 +6,16 @@ const Story = () => {
         <section className="py-32 bg-[#FAFAFA] bg-[radial-gradient(circle_at_80%_80%,rgba(0,0,128,0.03)_0%,transparent_40%)]" id="about">
             <div className="max-w-[1280px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                 <div className="flex flex-col items-start">
-                    <div className="bg-blue-50 text-primary-deep text-[0.75rem] font-bold px-4 py-1.5 rounded-full mb-6">ABOUT THE PROJECT</div>
+                    <div className="bg-blue-50 text-primary-deep text-[0.75rem] font-bold px-4 py-1.5 rounded-full mb-6">ABOUT SPRINT</div>
                     <h2 className="text-5xl font-extrabold text-primary-deep leading-tight mb-8 tracking-tight">
                         A Platform Built for <br />
                         Collaborative Teams
                     </h2>
                     <p className="text-[1.05rem] text-slate-500 leading-relaxed mb-6 font-normal">
-                        Sprint was built as an academic project to explore modern full-stack engineering: a real-world project management system with role-based access, Kanban workflows, and live issue tracking.
+                        Sprint is a full-stack project management platform built with modern web technologies — featuring role-based access control, Kanban workflows, sprint planning, and live issue tracking.
                     </p>
                     <p className="text-[1.05rem] text-slate-500 leading-relaxed mb-10 font-normal">
-                        The goal was to design and implement a production-quality ticketing platform using Express, MongoDB, and React — covering the full lifecycle from architecture and data modelling to deployment.
+                        Designed to handle real team collaboration at scale — from creating projects and assigning members to tracking issues across customizable workflows.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-6">
